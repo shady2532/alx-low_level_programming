@@ -7,7 +7,8 @@
 int main()
 {
 	char c = 'a';
-	for(int i = 0 ; i < 26 ; i++)
+	int i;
+	for(i = 0 ; i < 26 ; i++)
 	{
 		putchar(c+i);
 	}
