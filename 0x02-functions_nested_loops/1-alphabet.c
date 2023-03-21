@@ -2,9 +2,8 @@
 void print_alphabet(void)
 {
 	int i;
-	char c[8] = "alphabet";
 
-	for(i=0;i<8;i++)
+	for(i = 97 ; i < 122 ; i++)
 	{
 		putchar(c[i]);
 	}
