@@ -1,5 +1,5 @@
 #include "main.h"
-#include <limits.h>
+#include "6-abs.c"
 
 /**
  * print_last_digit - returns last digit of n.
@@ -9,20 +9,6 @@
 
 int print_last_digit(int n)
 {
-	int r;
-
-	if (n < 0)
-	{
-		if (n == INT_MIN)
-		{
-			r = -n;
-			r = n % 10;
-			putchar('0' + r);
-			return (r);
-		}
-		n *= -1;
-	}
-	r = n % 10;
-	_putchar('0' + r);
-	return (r);
+	_putchar('0' + _abs(n % 10));
+	return (_abs(n % 10));
 }
