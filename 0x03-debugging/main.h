@@ -3,10 +3,11 @@
 
 #include <stdio.h>
 
-/**
+/*
  * File: main.h
- * discription: header file
- */
+ 
+ * Desc: header file
+**/
 void positive_or_negative(int i);
 
 #endif /* MAIN_H */
