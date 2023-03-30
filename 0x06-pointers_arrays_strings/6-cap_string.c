@@ -4,7 +4,7 @@
  * @a: character to return
  * Return: true or false
  */
-char _indexOf(char a)
+int _indexOf(char a)
 {
 	int i;
 	char capArr[13] = {'\n', '\t', ' ', '.', ',', ';', ',', '!', '?', '(', ')', '{', '}'};
