@@ -4,7 +4,7 @@
 /**
  * compare - Main Entry
  * @s: input
- * @l: input
+ * @n: input
  * Return: 0
  */
 int compare(char *s, int n)
