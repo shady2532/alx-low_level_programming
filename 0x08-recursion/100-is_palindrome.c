@@ -18,7 +18,7 @@ int is_palindrome(char *s)
 {
 	int i;
 	int n = strlen(s);
-	int counter = 0;
+	int counter = counting(s, n, i);
 
 	/*for (i=0; i<n/2; i++)
 	{
