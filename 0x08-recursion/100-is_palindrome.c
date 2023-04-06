@@ -4,15 +4,14 @@
 
 int compare(char *s, int n)
 {
-	int i = 0;
 	int counter = 0;
 
-	if (s[i] == s[n - 1 - i])
-	{
-		counter = compare(s + 1, n);
-		i++;
-		return (counter++);
-	}
+	if (n <= 0)
+		return (1);
+	if (*s == s[n - 1])
+		return (compare(s + 1, n--));
+	else
+		return (0);
 }
 
 
