@@ -1,7 +1,12 @@
 #include "main.h"
 #include <string.h>
 #include <stdio.h>
-
+/**
+ * compare - Main Entry
+ * @s: input
+ * @l: input
+ * Return: 0
+ */
 int compare(char *s, int n)
 {
 	if (n <= 0)
@@ -11,8 +16,11 @@ int compare(char *s, int n)
 	else
 		return (0);
 }
-
-
+/**
+ * is_palindrome - Main Entry
+ * @s: input
+ * Return: 0
+ */
 int is_palindrome(char *s)
 {
 	int n = strlen(s);
