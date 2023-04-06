@@ -4,8 +4,6 @@
 
 int compare(char *s, int n)
 {
-	int counter = 0;
-
 	if (n <= 0)
 		return (1);
 	if (*s == s[n - 1])
