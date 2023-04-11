@@ -8,10 +8,12 @@
  * Return: Always 0 (Success)
  */
 int main(int argc, char *argv[])
-{
-	int i, sum = 0;
-	int count = 1;
-	
+{int sum;
+	int count;
+	int i;
+
+	count = 1;
+	sum = 0;
 	if (argc == 1)
 	{
 		printf("0\n");
@@ -19,7 +21,7 @@ int main(int argc, char *argv[])
 	}
 	while (count < argc)
 	{
-		for (i = 0; i < argv[count][i]; i++)
+		for (i = 0; argv[count][i] != '\0'; i++)
 		{
 			if (!(isdigit(argv[count][i])))
 			{
