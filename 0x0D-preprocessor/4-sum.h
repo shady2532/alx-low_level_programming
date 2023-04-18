@@ -6,6 +6,5 @@
  * @y: input
  * Desc: header file
  */
-
-#define SUM(X, Y) (X + Y) 
+#define SUM(x, y) (x + y)
 #endif 
