@@ -1,5 +1,6 @@
 #include "dog.h"
 #include <stdlib.h>
+#include <stdio.h>
 /**
  * print_dog - Prints name, age and owner if not null.
  * @d: is pointer to the struct dog.
