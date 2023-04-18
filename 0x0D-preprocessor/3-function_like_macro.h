@@ -1,5 +1,5 @@
-#ifndef MACRO_H
-#define MACRO_H
+#ifndef LIKEMACRO_H
+#define LIKEMACRO_H
 /**
  * File: 3-function_like_macro
  * @X: input
