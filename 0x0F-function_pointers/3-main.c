@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 	if ((strcmp(argv[2], "+") && strcmp(argv[2], "-") && strcmp(argv[2], "*") && strcmp(argv[2], "/") && strcmp(argv[2], "%")))
 	{
 		printf ("Error\n");
-		exit(98);
+		exit(99);
 	}
 	if ((strcmp(argv[2], "/") == 0 || strcmp(argv[2], "%") == 0) && atoi(argv[3]) == 0)
 	{
